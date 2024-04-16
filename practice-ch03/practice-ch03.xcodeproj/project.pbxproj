@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		FB2A6B192BCE0098003E9028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A6B182BCE0098003E9028 /* AppDelegate.swift */; };
 		FB2A6B1B2BCE0098003E9028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A6B1A2BCE0098003E9028 /* SceneDelegate.swift */; };
-		FB2A6B1D2BCE0098003E9028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A6B1C2BCE0098003E9028 /* ViewController.swift */; };
 		FB2A6B202BCE0098003E9028 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB2A6B1F2BCE0098003E9028 /* Base */; };
 		FB2A6B222BCE0099003E9028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2A6B212BCE0099003E9028 /* Assets.xcassets */; };
 		FB2A6B252BCE0099003E9028 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB2A6B242BCE0099003E9028 /* Base */; };
 		FB2A6B2D2BCE00E7003E9028 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FB2A6B2C2BCE00E7003E9028 /* .gitignore */; };
+		FB2A6B2F2BCE036A003E9028 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A6B2E2BCE036A003E9028 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB2A6B152BCE0098003E9028 /* practice-ch03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practice-ch03.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2A6B182BCE0098003E9028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2A6B1A2BCE0098003E9028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB2A6B1C2BCE0098003E9028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB2A6B1F2BCE0098003E9028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB2A6B212BCE0099003E9028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2A6B242BCE0099003E9028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2A6B262BCE0099003E9028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2A6B2C2BCE00E7003E9028 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FB2A6B2E2BCE036A003E9028 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			children = (
 				FB2A6B182BCE0098003E9028 /* AppDelegate.swift */,
 				FB2A6B1A2BCE0098003E9028 /* SceneDelegate.swift */,
-				FB2A6B1C2BCE0098003E9028 /* ViewController.swift */,
 				FB2A6B1E2BCE0098003E9028 /* Main.storyboard */,
 				FB2A6B212BCE0099003E9028 /* Assets.xcassets */,
 				FB2A6B232BCE0099003E9028 /* LaunchScreen.storyboard */,
 				FB2A6B262BCE0099003E9028 /* Info.plist */,
+				FB2A6B2E2BCE036A003E9028 /* ConversionViewController.swift */,
 			);
 			path = "practice-ch03";
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2A6B1D2BCE0098003E9028 /* ViewController.swift in Sources */,
 				FB2A6B192BCE0098003E9028 /* AppDelegate.swift in Sources */,
+				FB2A6B2F2BCE036A003E9028 /* ConversionViewController.swift in Sources */,
 				FB2A6B1B2BCE0098003E9028 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
